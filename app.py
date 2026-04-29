@@ -20,7 +20,7 @@ khqr = KHQR(MY_TOKEN)
 
 @app.route('/')
 def index():
-    return "<h1>✅ DramaFlix Movie API is Running!</h1>"
+    return "<h1>✅ Kolab Khmer Movie API is Running!</h1>"
 
 @app.route('/generate_qr', methods=['POST'])
 def generate_qr():
